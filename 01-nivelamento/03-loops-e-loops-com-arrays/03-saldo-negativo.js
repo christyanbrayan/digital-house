@@ -1,0 +1,12 @@
+/*
+Uma empresa mandou uma lista contendo os números mensais de tudo o que ela faturou, e nosso trabalho é ajudá-los a criar um relatório que exiba em quantos meses eles tiveram o saldo negativo. Com base no array faça um loop que verifique quantos meses tiveram valores negativos e armazene a contagem uma variável chamada totalNegativos.
+*/
+
+var listaDeGanhos = [10, 30, -10, -5, -1, 40]
+var totalNegativos = 0
+
+for (i = 0; i < listaDeGanhos.length; i++) {
+    if (listaDeGanhos[i] < 0) {
+        totalNegativos++
+    }
+}
